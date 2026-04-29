@@ -1,3 +1,5 @@
+import 'package:e_com/features/auth/presentation/screens/verify_otp_screen.dart';
+
 import 'sign_in_screen.dart';
 
 import '../../../app/extensions/utils_extention.dart';
@@ -93,7 +95,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
     );
   }
 
-  void _onTapSignUpButton() {}
+  void _onTapSignUpButton() {
+    Navigator.pushNamed(context, VerifyOtpScreen.name);
+  }
   void _onTapSignInButton() {
     Navigator.pushNamed(context, SignInScreen.name);
   }
