@@ -18,7 +18,7 @@ class AppLocalizationsBn extends AppLocalizations {
   String get createAccount => 'অ্যাকাউন্ট তৈরি করুন';
 
   @override
-  String get subtitleSignUp => 'আপনার বিবরণ দিয়ে শুরু করুন';
+  String get subtitleSignUp => 'আপনার তথ্য দিয়ে শুরু করুন';
 
   @override
   String get email => 'ইমেইল';
@@ -45,5 +45,23 @@ class AppLocalizationsBn extends AppLocalizations {
   String get logInAccount => 'অ্যাকাউন্টে লগইন করুন';
 
   @override
-  String get logInSubtitle => 'আপনার অ্যাকাউন্টের বিবরণ দিয়ে সাইন ইন করুন';
+  String get logInSubtitle => 'আপনার অ্যাকাউন্ট তথ্য দিয়ে সাইন ইন করুন';
+
+  @override
+  String get otpPageTitle => 'OTP কোড লিখুন';
+
+  @override
+  String get otpPageTitleSubtitle => 'একটি ৪ সংখ্যার OTP কোড পাঠানো হয়েছে';
+
+  @override
+  String get next => 'পরবর্তী';
+
+  @override
+  String get otpPageLastTitle => 'এই কোডটির মেয়াদ শেষ হবে ';
+
+  @override
+  String get otpPageLastTitleSubtitle => '১২০ সেকেন্ড';
+
+  @override
+  String get resent => 'পুনরায় পাঠান';
 }

@@ -11,5 +11,11 @@
     "password":"Password",
     "signIn":"Sign in",
     "logInAccount":"Login to Your Account",
-    "logInSubtitle":"Sign in with your account details"
+    "logInSubtitle":"Sign in with your account details",
+    "otpPageTitle":"Enter OTP Code",
+    "otpPageTitleSubtitle":"A 4 digit otp code has been sent",
+    "next":"Next",
+    "otpPageLastTitle":"This code will expire in ",
+    "otpPageLastTitleSubtitle":"120s",
+    "resent":"resent"
 }

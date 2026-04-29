@@ -172,6 +172,42 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sign in with your account details'**
   String get logInSubtitle;
+
+  /// No description provided for @otpPageTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter OTP Code'**
+  String get otpPageTitle;
+
+  /// No description provided for @otpPageTitleSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'A 4 digit otp code has been sent'**
+  String get otpPageTitleSubtitle;
+
+  /// No description provided for @next.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get next;
+
+  /// No description provided for @otpPageLastTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This code will expire in '**
+  String get otpPageLastTitle;
+
+  /// No description provided for @otpPageLastTitleSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'120s'**
+  String get otpPageLastTitleSubtitle;
+
+  /// No description provided for @resent.
+  ///
+  /// In en, this message translates to:
+  /// **'resent'**
+  String get resent;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

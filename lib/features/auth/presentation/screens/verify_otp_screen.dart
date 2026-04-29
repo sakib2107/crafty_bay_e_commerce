@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 import '../../../../app/app_colors.dart';
+import '../../../shared/presentation/widgets/language_switcher.dart';
 import '../widgets/app_logo.dart';
+
 class VerifyOtpScreen extends StatefulWidget {
   const VerifyOtpScreen({super.key});
   static const String name = '/verify_otp';
@@ -18,16 +20,18 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
-            padding: EdgeInsets.all(16),
+            padding: EdgeInsets.all(24),
             child: Column(
               children: [
+                const SizedBox(height: 24),
                 AppLogo(height: 100, width: 100),
                 const SizedBox(height: 16),
-                Text("Enter OTP Code",
-                  style: context.textTheme.titleLarge,
-                ),
-                Text("A 4 digit otp code has been sent",
-                  style: context.textTheme.bodyMedium?.copyWith(color: Colors.grey),
+                Text(context.l10n.otpPageTitle, style: context.textTheme.titleLarge),
+                Text(
+                  context.l10n.otpPageTitleSubtitle,
+                  style: context.textTheme.bodyMedium?.copyWith(
+                    color: Colors.grey,
+                  ),
                 ),
                 const SizedBox(height: 24),
                 MaterialPinField(
@@ -46,18 +50,32 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
                   ),
                 ),
                 const SizedBox(height: 16),
-                FilledButton(
-                  onPressed: _onTapSignPage,
-                  child: Text('Next'),
+                FilledButton(onPressed: _onTapSignPage, child: Text(context.l10n.next)),
+                const SizedBox(height: 16),
+                RichText(
+                  text: TextSpan(
+                    style: TextStyle(color: Colors.black),
+                    children: [
+                      TextSpan(text: context.l10n.otpPageLastTitle),
+                      TextSpan(
+                        text: context.l10n.otpPageLastTitleSubtitle,
+                        style: TextStyle(color: AppColors.themeColor),
+                      ),
+                    ],
+                  ),
                 ),
-                ],
+                TextButton(
+                  onPressed: _onTapResentButton,
+                  child: Text(context.l10n.resent),
+                ),
+              ],
             ),
           ),
         ),
       ),
     );
   }
-  void _onTapSignPage(){
 
-  }
+  void _onTapResentButton() {}
+  void _onTapSignPage() {}
 }

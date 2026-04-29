@@ -46,4 +46,22 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get logInSubtitle => 'Sign in with your account details';
+
+  @override
+  String get otpPageTitle => 'Enter OTP Code';
+
+  @override
+  String get otpPageTitleSubtitle => 'A 4 digit otp code has been sent';
+
+  @override
+  String get next => 'Next';
+
+  @override
+  String get otpPageLastTitle => 'This code will expire in ';
+
+  @override
+  String get otpPageLastTitleSubtitle => '120s';
+
+  @override
+  String get resent => 'resent';
 }
