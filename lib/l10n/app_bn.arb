@@ -1,4 +1,15 @@
 {
-    "appName": "Crafty Bay BN",
-    "signUp": "সাইন আপ"
+  "appName": "ক্রাফ্টি বে",
+  "signUp": "সাইন আপ",
+  "createAccount": "অ্যাকাউন্ট তৈরি করুন",
+  "subtitleSignUp":"আপনার বিবরণ দিয়ে শুরু করুন",
+  "email": "ইমেইল",
+  "firstName": "নামের প্রথম অংশ",
+  "lastName": "নামের শেষ অংশ",
+  "phone": "ফোন",
+  "city": "শহর",
+  "password": "পাসওয়ার্ড",
+  "signIn":"সাইন ইন",
+  "logInAccount":"অ্যাকাউন্টে লগইন করুন",
+  "logInSubtitle":"আপনার অ্যাকাউন্টের বিবরণ দিয়ে সাইন ইন করুন"
 }

@@ -13,4 +13,37 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get signUp => 'Sign up';
+
+  @override
+  String get createAccount => 'Create Your Account';
+
+  @override
+  String get subtitleSignUp => 'Get started with your details';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get firstName => 'First name';
+
+  @override
+  String get lastName => 'Last name';
+
+  @override
+  String get phone => 'Phone';
+
+  @override
+  String get city => 'City';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get signIn => 'Sign in';
+
+  @override
+  String get logInAccount => 'Login to Your Account';
+
+  @override
+  String get logInSubtitle => 'Sign in with your account details';
 }

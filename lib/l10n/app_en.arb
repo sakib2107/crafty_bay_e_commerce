@@ -1,4 +1,15 @@
 {
     "appName": "Crafty Bay",
-    "signUp": "Sign up"
+    "signUp": "Sign up",
+    "createAccount":"Create Your Account",
+    "subtitleSignUp":"Get started with your details",
+    "email":"Email",
+    "firstName":"First name",
+    "lastName":"Last name",
+    "phone":"Phone",
+    "city":"City",
+    "password":"Password",
+    "signIn":"Sign in",
+    "logInAccount":"Login to Your Account",
+    "logInSubtitle":"Sign in with your account details"
 }
