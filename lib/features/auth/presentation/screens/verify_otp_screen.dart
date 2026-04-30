@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
 
 import '../../../../app/app_colors.dart';
-import '../../../shared/presentation/widgets/language_switcher.dart';
 import '../widgets/app_logo.dart';
+import '../widgets/resend_otp_screen.dart';
 
 class VerifyOtpScreen extends StatefulWidget {
   const VerifyOtpScreen({super.key});
@@ -52,22 +52,7 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
                 const SizedBox(height: 16),
                 FilledButton(onPressed: _onTapSignPage, child: Text(context.l10n.next)),
                 const SizedBox(height: 16),
-                RichText(
-                  text: TextSpan(
-                    style: TextStyle(color: Colors.black),
-                    children: [
-                      TextSpan(text: context.l10n.otpPageLastTitle),
-                      TextSpan(
-                        text: context.l10n.otpPageLastTitleSubtitle,
-                        style: TextStyle(color: AppColors.themeColor),
-                      ),
-                    ],
-                  ),
-                ),
-                TextButton(
-                  onPressed: _onTapResentButton,
-                  child: Text(context.l10n.resent),
-                ),
+                ResendOtpSection(),
               ],
             ),
           ),
@@ -75,7 +60,5 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
       ),
     );
   }
-
-  void _onTapResentButton() {}
   void _onTapSignPage() {}
 }
