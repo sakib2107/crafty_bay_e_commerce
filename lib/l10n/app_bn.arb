@@ -17,5 +17,9 @@
   "next": "পরবর্তী",
   "otpPageLastTitle": "এই কোডটির মেয়াদ শেষ হবে ",
   "otpPageLastTitleSubtitle": "১২০ সেকেন্ড",
-  "resent": "পুনরায় পাঠান"
+  "resent": "পুনরায় পাঠান",
+  "home": "হোম",
+  "category": "ক্যাটাগরি",
+  "carts": "কার্ট",
+  "wishlist": "উইশলিস্ট"
 }

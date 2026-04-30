@@ -64,4 +64,16 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get resent => 'পুনরায় পাঠান';
+
+  @override
+  String get home => 'হোম';
+
+  @override
+  String get category => 'ক্যাটাগরি';
+
+  @override
+  String get carts => 'কার্ট';
+
+  @override
+  String get wishlist => 'উইশলিস্ট';
 }

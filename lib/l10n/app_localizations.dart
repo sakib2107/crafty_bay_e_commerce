@@ -208,6 +208,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'resent'**
   String get resent;
+
+  /// No description provided for @home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home;
+
+  /// No description provided for @category.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get category;
+
+  /// No description provided for @carts.
+  ///
+  /// In en, this message translates to:
+  /// **'Carts'**
+  String get carts;
+
+  /// No description provided for @wishlist.
+  ///
+  /// In en, this message translates to:
+  /// **'Wishlist'**
+  String get wishlist;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

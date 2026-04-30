@@ -17,5 +17,9 @@
     "next":"Next",
     "otpPageLastTitle":"This code will expire in ",
     "otpPageLastTitleSubtitle":"120s",
-    "resent":"resent"
+    "resent":"resent",
+    "home":"Home",
+    "category":"Category",
+    "carts":"Carts",
+    "wishlist":"Wishlist"
 }
