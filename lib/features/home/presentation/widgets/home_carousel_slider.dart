@@ -58,7 +58,7 @@ class _HomeCarouselSliderState extends State<HomeCarouselSlider> {
                           ? AppColors.themeColor
                           : Colors.transparent,
                       border: Border.all(
-                        color: value == i ? AppColors.themeColor : Colors.grey,
+                        color: value == i ? AppColors.themeColor : Colors.blue,
                       ),
                     ),
                   ),
