@@ -2,7 +2,7 @@ import '../../../app/extensions/utils_extention.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../app/app_colors.dart';
-import '../../../product/prsentation/screens/product_list_screen.dart';
+import '../../../product/presentation/screens/product_list_screen.dart';
 
 
 class CategoryCard extends StatelessWidget {
