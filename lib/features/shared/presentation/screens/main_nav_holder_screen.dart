@@ -2,6 +2,7 @@ import 'package:e_com/app/extensions/localization_extention.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../app/app_colors.dart';
+import '../../../cart/prsentation/screens/cart_screen.dart';
 import '../../../category/presentation/screens/category_list_screen.dart';
 import '../../../home/presentation/screens/home.dart';
 import '../../../wish_list/prsentation/screens/wish_list_screen.dart';
@@ -21,7 +22,7 @@ class _MainNavHolderScreenState extends State<MainNavHolderScreen> {
   final List<Widget> _screens = [
     HomeScreen(),
     CategoryListScreen(),
-    SizedBox(),
+    CartScreen(),
     WishListScreen(),
   ];
 
