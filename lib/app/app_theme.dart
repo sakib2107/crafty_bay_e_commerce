@@ -64,6 +64,7 @@ class AppTheme {
     ),
   );
 
+
   static ThemeData get lightTheme => _lightThemeData;
 
   static ThemeData get darkTheme => _darkThemeData;
