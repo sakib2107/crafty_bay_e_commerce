@@ -3,6 +3,7 @@ import '../features/auth/presentation/screens/sign_in_screen.dart';
 import '../features/auth/presentation/screens/sign_up_screen.dart';
 import '../features/auth/presentation/screens/splash_screen.dart';
 import '../features/auth/presentation/screens/verify_otp_screen.dart';
+import '../features/product/prsentation/screens/product_list_screen.dart';
 import '../features/shared/presentation/screens/main_nav_holder_screen.dart';
 
 class Routes {
@@ -19,6 +20,9 @@ class Routes {
         widget = VerifyOtpScreen();
       case MainNavHolderScreen.name:
         widget = MainNavHolderScreen();
+      case ProductListScreen.name:
+        final categoryName = settings.arguments as String;
+        widget = ProductListScreen(categoryName: categoryName);
     }
     return MaterialPageRoute(builder: (context) => widget);
   }
